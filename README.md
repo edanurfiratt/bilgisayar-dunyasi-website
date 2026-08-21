@@ -1,32 +1,32 @@
-# Bilgisayar Dünyası — Web Sitesi
+# Bilgisayar Dünyası — Corporate Website
 
-Bilgisayar Dünyası'nın (Akınsoft Esenler Bölge Bayisi) kurumsal web sitesi.
-İstanbul merkezli olarak kurumsal bilgi teknolojileri, teknik servis ve
-güvenlik sistemleri alanında hizmet veren firmanın tanıtım sitesidir.
+Corporate website for Bilgisayar Dünyası (Akınsoft Esenler Regional Dealer).
+An Istanbul-based company providing corporate IT solutions, technical
+service, and security systems.
 
-## Özellikler
+## Features
 
-- Kurumsal tanıtım sayfaları (Ana Sayfa, Hakkımızda, Neler Yapıyoruz, Kariyer, İletişim)
-- Hizmetlere özel detay sayfaları
-- Tamamlanan projeleri tanıtan portfolyo bölümü
-- İletişim ve kariyer başvuru formları (PHP tabanlı, sunucu tarafı kayıt)
-- Şifre korumalı yönetim paneli (gelen mesaj ve başvuruları görüntüleme)
+- Corporate pages (Home, About, Services, Career, Contact)
+- Dedicated detail pages for each service
+- Portfolio section showcasing completed projects
+- Contact and career application forms (PHP-based, server-side storage)
+- Password-protected admin panel for viewing incoming messages and applications
 
-## Kullanılan Teknolojiler
+## Tech Stack
 
 - HTML5, CSS3, Vanilla JavaScript
-- PHP (form işleme ve yönetim paneli)
-- JSON dosya tabanlı veri saklama
+- PHP (form handling and admin panel)
+- JSON file-based data storage
 
-## Klasör Yapısı
+## Folder Structure
 
-- `css/`, `js/`, `assets/` — site stilleri, betikleri ve görseller
-- `detay/` — hizmet detay sayfaları
-- `proje/` — proje detay sayfaları
-- `admin/` — yönetim paneli
-- `data/`, `uploads/` — form verileri ve yüklenen dosyalar (sunucuda saklanır)
+- `css/`, `js/`, `assets/` — site styles, scripts, and images
+- `detay/` — service detail pages
+- `proje/` — project detail pages
+- `admin/` — admin panel
+- `data/`, `uploads/` — form data and uploaded files (stored server-side)
 
-## Kurulum
+## Setup
 
-Bu proje PHP çalıştırabilen bir hosting üzerinde yayına alınmalıdır.
-Yüklendikten sonra `/admin/kurulum.php` adresinden yönetici hesabı oluşturulur.
+This project must be deployed on PHP-enabled hosting. After uploading,
+create the admin account by visiting `/admin/kurulum.php`.
