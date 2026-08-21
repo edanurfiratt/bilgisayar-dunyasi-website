@@ -1,0 +1,64 @@
+/* ==========================================================================
+   Bilgisayar Dünyası — Tasarım Sistemi Değişkenleri
+   ========================================================================== */
+:root {
+  /* --- Renkler --- */
+  --color-bg: #ffffff;
+  --color-bg-alt: #f5f8fc;
+  --color-ink: #0b1220;          /* koyu lacivert (header/footer/başlık) */
+  --color-ink-soft: #16213f;
+  --color-text: #333a4d;
+  --color-text-muted: #6b7280;
+  --color-border: #e4e9f2;
+  --color-accent: #f47c20;       /* marka turuncusu — tek vurgu rengi */
+  --color-accent-dark: #c85f0f;
+  --color-accent-soft: #fdecdc;
+  --color-white: #ffffff;
+  --color-success: #1fa971;
+  --color-danger: #e5484d;
+
+  /* --- Tipografi --- */
+  --font-heading: 'Poppins', 'Segoe UI', sans-serif;
+  --font-body: 'Inter', 'Segoe UI', sans-serif;
+
+  --fs-xs: 0.8125rem;
+  --fs-sm: 0.9375rem;
+  --fs-base: 1rem;
+  --fs-md: 1.125rem;
+  --fs-lg: 1.375rem;
+  --fs-xl: 1.75rem;
+  --fs-2xl: 2.25rem;
+  --fs-3xl: 3rem;
+
+  /* --- Boşluk Sistemi (4px tabanlı ölçek) --- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10: 128px;
+
+  /* --- Köşe Yuvarlama --- */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-full: 999px;
+
+  /* --- Gölge --- */
+  --shadow-sm: 0 2px 10px rgba(11, 18, 32, 0.06);
+  --shadow-md: 0 14px 34px rgba(11, 18, 32, 0.10);
+  --shadow-lg: 0 26px 60px rgba(11, 18, 32, 0.18);
+
+  /* --- Layout --- */
+  --container-width: 1200px;
+  --header-height: 88px;
+  --topbar-height: 40px;
+
+  /* --- Geçiş --- */
+  --transition-fast: 0.2s ease;
+  --transition-base: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}

@@ -1,0 +1,29 @@
+/* ==========================================================================
+   Kırılım Noktaları — genel tipografi/boşluk ölçekleme
+   ========================================================================== */
+
+@media (max-width: 1080px) {
+  :root { --fs-3xl: 2.5rem; --fs-2xl: 1.875rem; }
+  .grid-4 { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 900px) {
+  .section { padding-block: var(--space-8); }
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 720px) {
+  :root { --fs-3xl: 2.05rem; --fs-2xl: 1.6rem; --fs-xl: 1.4rem; }
+  .section { padding-block: var(--space-7); }
+  .grid-2,
+  .grid-3,
+  .grid-4 { grid-template-columns: 1fr; }
+  .form-row { grid-template-columns: 1fr; }
+  .section-head { max-width: 100%; }
+}
+
+@media (max-width: 480px) {
+  .container { padding-inline: var(--space-4); }
+  .btn { width: 100%; }
+  .btn-inline { width: auto; }
+}
